@@ -8,7 +8,8 @@ This repository contains the code for my Chemistry Thesis. The code is written i
 
 1. Clone the Repository
    ```bash
-   git clone https://github.com/hg8055/Chemistry-Thesis.git```
+   git clone https://github.com/hg8055/Chemistry-Thesis.git
+```
 
 2. Upload Dataset to Google Drive
    - Upload the dataset.xlsx file to your Google Drive.
