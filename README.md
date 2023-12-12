@@ -8,23 +8,22 @@ This repository contains the code for my Chemistry Thesis. The code is written i
 
 1. Clone the Repository
    ```bash
-   - git clone https://github.com/your-username/chemistry-thesis-code.git
-   - cd chemistry-thesis-code```
+   git clone https://github.com/your-username/chemistry-thesis-code.git```
 
-3. Upload Dataset to Google Drive
+2. Upload Dataset to Google Drive
    - Upload the dataset.xlsx file to your Google Drive.
 
-4. Open Colab Notebook
+3. Open Colab Notebook
    - Open the ChemistryThesisCode.ipynb notebook using Google Colab.
 
-5. Mount Google Drive
+4. Mount Google Drive
    - Run the following code in the Colab notebook to mount your Google Drive:
      ```python
      from google.colab import drive
      drive.mount('/content/drive')
      ```
 
-6. Set the Dataset Path
+5. Set the Dataset Path
    - Locate the cell with the pd.read_excel command and update the file path to the dataset:
      ```python
      # Update the file path
